@@ -1,0 +1,187 @@
+/* custom start */
+    ::-webkit-scrollbar-thumb {
+      background: #00005c
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #fcfcfc
+    }
+
+    ::-webkit-scrollbar {
+      width: 2px
+    }
+
+    .container-2 {
+      max-width: 1140px;
+      margin: 0 auto;
+
+    }
+    /* custom end*/
+
+
+    /* box for text start */
+
+    .fancytext {
+      width: 100%;
+      padding: .5em 1em;
+      outline: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 6px;
+      letter-spacing: .02em;
+      line-height: 1.4;
+      margin-bottom: 0;
+      display: block;
+      text-align: center;
+      font-size: 25px;
+      font-family: roboto, sans-serif;
+      letter-spacing: 1px;
+      border-radius: 3px;
+      background: #f5f6fa;
+      -webkit-box-shadow: inset 1px 1px 3px rgba(200, 200, 200, .7);
+      -moz-box-shadow: inset 1px 1px 3px rgba(200, 200, 200, .7);
+      box-shadow: inset 1px 1px 3px rgba(200, 200, 200, .7)
+    }
+/* box for text end */
+
+
+
+
+#scroll {
+  padding: 22px
+}
+#scroll {
+  right: 10px
+}
+#scroll {
+  display: none;
+  position: fixed;
+  bottom: 20%;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 25px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, .21);
+  border-radius: 3px
+}
+
+#scroll:hover {
+  border-color: #00005c
+}
+
+#scroll:hover span {
+  border-bottom-color: rgb(255, 0, 0)
+}
+
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #00005c
+}
+
+/* box for text baground start */
+    .fancyfont-text {
+      margin-bottom: 10px;
+      display: table;
+      width: 100%;
+      position: relative;
+      background: #00005c;
+      z-index: 1;
+      box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .21)
+    }
+/* box for text baground end */
+
+
+/* nav bar custom start */
+    .bg-dark {
+      background-color: #00005c !important;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 28px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .navbar-dark .navbar-nav .nav-item {
+      margin: 0 15px;
+    }
+ /* nav bar custom end */
+
+
+ .form-control-lg {
+    color: black;
+    font-size: 27px;
+    
+  }
+
+  .input-group-text{
+    color: rgb(47, 7, 224);
+    font-weight: bold;
+  }
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #00005c;
+}
+
+ .footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00005c;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom:5px;
+  
+ }
+
+body {
+  background-color: #F5F6FA
+}
+
+
+@media screen and (max-width: 600px) {
+
+  
+  .form-control-lg {
+    color: black;
+    font-size: 18px;
+    
+  }
+
+  #scroll {
+    padding: 15px
+  }
+  #scroll {
+    right: 10px
+  }
+  #scroll {
+    bottom: 10%;
+    right: 10px;
+    font-size: 18px;
+    padding: 20px;
+  
+  }
+  
+ 
+
+
+}
